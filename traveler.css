@@ -1,2 +1,52 @@
 /* Traveler Times style sheet, by Jessica Miller */
 
+body {
+   font-family: "Verdanan", "Geneva", sans-serif;
+   font-size: 12pt;
+}
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+}
+h2, h3 {
+  background-color: #336699;
+  color: white;
+}
+a {
+  color: #151B54;
+  font-weight: bold;
+}
+ol, ul {
+  background-color #cccccc;
+}
+P {
+  text-align: justify;
+  test-indent: 2em;
+}
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+a {
+  color: #151B54;
+  font-weight: bold;
+  text-decoration: none;
+}
+ol {
+  list-style-type: upper-roman;
+}
+<p id="dublinbeer">The price of a pint of beer is about &#8364;5.
+  Although I would recommend the cider (around &#8364;8 a pint). </p>
+#dublinbeer {
+  font-style: italic;
+}
+<p class="figure">
+  Here is a picture of a surfer at Puerto Escondido...
+  &iexcel;Qu&eacute; onda! <br /> <img src="images/surfer.jpg"
+  width="292" height="193" alt="surfer" /></p>
+.figure {
+  text-align: center;
+}
